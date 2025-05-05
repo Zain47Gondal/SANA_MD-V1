@@ -6,11 +6,11 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const defaultOwner = '923337468951';
+const defaultOwner = '923477756511';
 
 
 // Check for the OWNERS environment variable; if not found, use the default
-const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || 'your number';  // put your number here
+const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '923477756511';  // put your number here
 
 const ownerlist = ownervb.split(';');
 
@@ -19,13 +19,13 @@ for (let i = 0; i < ownerlist.length; i++) {
     global.owner.push([ownerlist[i], true]);
 }
 //
-global.botname = process.env.BOTNAME || 'SANA_MD-V1';
-global.pairingNumber = process.env.BOT_NUMBER || 'your number';  // put your number here
+global.botname = process.env.BOTNAME || 'ZAIN_GONDAL';
+global.pairingNumber = process.env.BOT_NUMBER || '923477756511';  // put your number here
 global.SESSION_ID = process.env.SESSION_ID || 'session id';  // put your session id here
 
 global.mods = []
 global.prems = []
-global.allowed = ['917849917350', '923337468951']
+global.allowed = ['923117671139', '923471638132']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
@@ -42,8 +42,7 @@ global.keysneoxrrr = ['5VC9rvNx', 'cfALv5']
 global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())]
 global.lolkeysapi = ['GataDios']
 
-global.canal = 'https://whatsapp.com/channel/0029VagcqzY1XquemrHOM51n'
-
+global.canal = 'https://wa.me/923477756511'
 
 global.APIs = {
   // API Prefix
@@ -73,16 +72,16 @@ global.APIKeys = {
 
 // Sticker WM
 global.premium = 'true'
-global.packname = 'SANA_MD-V1'
+global.packname = '〆 Z 么 I N 〆'
 global.author = 'Sanatech'
 global.menuvid = 'https://i.imgur.com/2Sp3cqD.mp4'
-global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/Tohidkhan6332'
-global.dygp = 'https://whatsapp.com/channel/0029VagcqzY1XquemrHOM51n'
-global.fgsc = 'https://Github.com/sana3165829/SANA_MD-V1'
-global.fgyt = 'https://youtube.com/@Tohidkhan_6332'
-global.fgpyp = 'https://GitHub.com/Tohidkhan6332'
-global.fglog = 'https://i.imgur.com/nqCsIHZ.jpeg'
-global.thumb = fs.readFileSync('./assets/tohid.jpg')
+global.igfg = ' Follow on Instagram\nhttps://wa.me/923477756511'
+global.dygp = 'https://wa.me/923477756511'
+global.fgsc = 'https://wa.me/923477756511'
+global.fgyt = 'https://wa.me/923477756511'
+global.fgpyp = 'https://wa.me/923477756511'
+global.fglog = 'https://wa.me/923477756511'
+global.thumb = fs.readFileSync('./assets/tohid.jg')
 
 global.wait = '⏳'
 global.rwait = '⏳'
